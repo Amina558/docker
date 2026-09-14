@@ -1,2 +1,3 @@
 # Run Hello-world
-# sudo docker run hello world > telling
+# sudo docker run hello world 
+telling 

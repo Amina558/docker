@@ -5,5 +5,6 @@ Telling docker to start a brand new container using a template called [hello-wor
 2. run: it tells Docker to find an image create a container from it .
 3. hello-world: This is the name of specific image that we want docker to use.
    <img width="1920" height="872" alt="image" src="https://github.com/user-attachments/assets/2d14202a-568a-4431-93e6-e59f04f94481" />
+   
 
 

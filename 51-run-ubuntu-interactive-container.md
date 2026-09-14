@@ -14,6 +14,20 @@ command = [sudo docker run -it ubuntu /bin/bash]
  # Check ubuntu version
  commandsb = [cat /etc/os-release]
  <img width="1920" height="353" alt="image" src="https://github.com/user-attachments/assets/1f4170f7-4499-43db-94d0-d5ce2d74e4c7" />
+ # create a new Container 
+ commands = [sudo docker run -d --name my-ubuntu-container ubuntu]
+ 1. docker run: the main command that tells docker to create and start a new container.
+ 2. -d: stands for detached.
+ 3. --name my-ubuntu-container: This gives your container a friendly, custom nickname (my-ubuntu-container) so you can easily stop or delete it later using that name instead of a random number.
+ 4. ubuntu: This is the official image docker will used to built the container.
+    
+ check [sudo docker container ls -a]
+<img width="1920" height="284" alt="image" src="https://github.com/user-attachments/assets/0244b842-571c-44ee-a036-6ba0720dab74" />
+# To login into that container(my-ubuntu-container)
+
+
+
+ 
 
 
 

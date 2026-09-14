@@ -3,8 +3,6 @@
 STEPS TO INSTALL DOCKER 
 
 # 1. SET UP DOCKER's APT REPOSITORY.
-
-> Add Docker's official GPG key:
 sudo apt update
 sudo apt install ca-certificates curl
 sudo install -m 0755 -d /etc/apt/keyrings

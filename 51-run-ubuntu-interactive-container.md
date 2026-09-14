@@ -1,7 +1,21 @@
 # Run Ubuntu Interactive Container 
 # Pull Ubuntu image 
-sudo docker pull image 
+command = [sudo docker pull image]
 <img width="1920" height="217" alt="image" src="https://github.com/user-attachments/assets/4a42a916-bc70-4adb-877b-d4c6d8df2b84" />
 # Run Ubuntu Interactive Container
-sudo docker run -it ubuntu /bin/bash
+command = [sudo docker run -it ubuntu /bin/bash]
+<img width="1920" height="72" alt="image" src="https://github.com/user-attachments/assets/7e3c7ee1-eb36-4843-95ec-662381298737" />
+# Check current user
+ command = [whoami]
+ <img width="1920" height="84" alt="image" src="https://github.com/user-attachments/assets/d8780a35-a984-486f-81aa-41bb807bac3a" />
+ # check files
+ commands = [ls]
+ <img width="1920" height="365" alt="image" src="https://github.com/user-attachments/assets/3837e944-9660-43c3-a156-e8348f314230" />
+ # Check ubuntu version
+ commandsb = [cat /etc/os-release]
+ <img width="1920" height="353" alt="image" src="https://github.com/user-attachments/assets/1f4170f7-4499-43db-94d0-d5ce2d74e4c7" />
+
+
+
+
 

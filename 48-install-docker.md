@@ -2,9 +2,11 @@
 
 STEPS TO INSTALL DOCKER 
 
-# Add Docker's Official GPG Key
+
 sudo apt update
 sudo apt install ca-certificates curl
+
+# Add Docker's Official GPG Key
 sudo install -m 0755 -d /etc/apt/keyrings
 sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
 sudo chmod a+r /etc/apt/keyrings/docker.asc

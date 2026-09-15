@@ -24,7 +24,19 @@ commands = [ sudo docker run -it httpd /bin/bash]
 
 # List the docker
 command = sudo docker container ls -a
+
 <img width="1920" height="243" alt="image" src="https://github.com/user-attachments/assets/717c159c-3d66-4c87-bb38-a0799c68a1d6" />
+
+# Stop the container 
+command = docker stop (container name/container id)
+
+# Remove the container
+for remove the container first we need to stop the container 
+command = docker rm (container name/container id)
+
+<img width="1920" height="705" alt="image" src="https://github.com/user-attachments/assets/7f146f90-4789-4c78-81f6-7aa4568fc6a6" />
+
+
 
 
 

@@ -23,7 +23,8 @@ command = [sudo docker run -it ubuntu /bin/bash]
     
  check [sudo docker container ls -a]
 <img width="1920" height="284" alt="image" src="https://github.com/user-attachments/assets/0244b842-571c-44ee-a036-6ba0720dab74" />
-# To login into that container(my-ubuntu-container)
+# To login into that container(hey-dc-ubuntu)
+
 
 
 

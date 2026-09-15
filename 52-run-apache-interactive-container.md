@@ -12,4 +12,15 @@ commands = [ sudo docker run -it httpd /bin/bash]
 
 
 # Inside the docker
+1. command = whoami: this command asks the system who is the current user logged in right now
+2. command = echo "hey im merry" > hello.txt : this create file named hello.txt and write a sentence "hey im merry"
+3. command = ls :lista the files and folder
+4. command = cat hello.txt : this command open the files and display the contents directly on the screen
+<img width="1920" height="211" alt="image" src="https://github.com/user-attachments/assets/9b1946e7-cb8c-404d-9ac7-21dfb6112ecd" />
+
+
+# exit
+<img width="1920" height="95" alt="image" src="https://github.com/user-attachments/assets/c768493b-e55f-4bd4-a9e0-e2fcb60110b3" />
+
+
 

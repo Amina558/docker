@@ -22,9 +22,9 @@ command = [sudo docker run -it ubuntu /bin/bash]
  4. ubuntu: This is the official image docker will used to built the container.
     
  check [sudo docker container ls -a]
- commands = sudo docker exec -it hey-dc-ubuntu /bin/bash
  <img width="1920" height="284" alt="image" src="https://github.com/user-attachments/assets/0244b842-571c-44ee-a036-6ba0720dab74" />
 # Login into that container(hey-dc-ubuntu)
+ commands = sudo docker exec -it hey-dc-ubuntu /bin/bash
 <img width="1920" height="187" alt="image" src="https://github.com/user-attachments/assets/5347d0f0-0af0-44b5-9fc0-064de3b45644" />
 
 <img width="1920" height="251" alt="image" src="https://github.com/user-attachments/assets/1b6edfd1-c547-47b8-b949-2a5669991eb6" />

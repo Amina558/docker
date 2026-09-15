@@ -22,5 +22,10 @@ commands = [ sudo docker run -it httpd /bin/bash]
 # exit
 <img width="1920" height="95" alt="image" src="https://github.com/user-attachments/assets/c768493b-e55f-4bd4-a9e0-e2fcb60110b3" />
 
+# List the docker
+command = sudo docker container ls -a
+<img width="1920" height="243" alt="image" src="https://github.com/user-attachments/assets/717c159c-3d66-4c87-bb38-a0799c68a1d6" />
+
+
 
 

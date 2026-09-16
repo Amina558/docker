@@ -26,6 +26,10 @@ commands =  sudo docker run -d \
 > -e POSTGRES_USER=amina \
 > postgres:15
 
+<img width="1920" height="991" alt="image" src="https://github.com/user-attachments/assets/5de57b33-7bc9-4695-aa48-d902700e7065" />
+
+
+
 
 
  

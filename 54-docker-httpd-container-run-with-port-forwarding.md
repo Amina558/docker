@@ -4,18 +4,18 @@ The process of building a specific port on the host machine to specific port ins
              
                               
     localhost      8080 → 80         Apache      
-    :8082      ------------->       :80 
-    
+     :8082      ------------->        :80 
+    docker host                    container
     [ External User / Browser ] 
           │
-         ▼ (Traffic hits Host Port 8080)
+          ▼ (Traffic hits Host Port 8080)
      ┌──────────────┐
      │  Docker Host │
      └──────┬───────┘
-          │ (Docker Network Bridge)
-          ▼ (Traffic forwarded to Container Port 80)
+            │ (Docker Network Bridge)
+            ▼ (Traffic forwarded to Container Port 80)
     ┌──────────────┐
-    │  Container   │ (Runs Nginx/Web App)
+    │  Container   │ (Runs Apache/Web App)
     └──────────────┘
     
    

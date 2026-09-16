@@ -3,20 +3,22 @@ The process of building a specific port on the host machine to specific port ins
    
              
                               
-  localhost      8080 → 80         Apache      
+    localhost      8080 → 80         Apache      
     :8082      ------------->       :80 
     
     [ External User / Browser ] 
           │
-          ▼ (Traffic hits Host Port 8082)
-   ┌──────────────┐
-   │  Docker Host │
-   └──────┬───────┘
+         ▼ (Traffic hits Host Port 8080)
+     ┌──────────────┐
+     │  Docker Host │
+     └──────┬───────┘
           │ (Docker Network Bridge)
           ▼ (Traffic forwarded to Container Port 80)
-   ┌──────────────┐
-   │  Container   │ (Runs apache/Web App)
-   └──────────────┘
+    ┌──────────────┐
+    │  Container   │ (Runs Nginx/Web App)
+    └──────────────┘
+    
+   
 
  # 8082-----> host port number
  ▶️ always put in left side 

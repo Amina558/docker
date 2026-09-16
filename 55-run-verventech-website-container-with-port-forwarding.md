@@ -13,8 +13,8 @@ commands = sudo docker run -dt --name my-ver-web -p 8081:80 verventech/verventec
 <img width="1920" height="1080" alt="Screenshot (905)" src="https://github.com/user-attachments/assets/be36957a-c28a-4f54-88e2-6a485bd58c06" />
 
 # 🥉 Access the verventech website
-we can now access the website from a browser.
-http://192.168.1.15:8081
+    we can now access the website from a browser.
+    http://192.168.1.15:8081
 <img width="1920" height="1080" alt="Screenshot (902)" src="https://github.com/user-attachments/assets/4e10b9b2-aad6-400d-aa43-4d4da755fb79" />
 
 

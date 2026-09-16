@@ -8,4 +8,8 @@
 4. Stopped: Gracefully or Abruptly Halted
 5. Deleted: Permanently wiped out from the host
 
-. state focus   
+♦️State Focus: Created state 
+🥇What Happen: Docker sets up a thin writable meta data layer over the read only image 
+. commands = sudo docker create --name lifecycle-container ubuntu
+# Explanation
+.docker 

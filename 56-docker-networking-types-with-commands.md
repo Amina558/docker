@@ -7,7 +7,7 @@
  <img width="844" height="267" alt="image" src="https://github.com/user-attachments/assets/d2fa8b29-89c3-4040-b6d3-487aac4a2bcb" />
  <img width="743" height="108" alt="image" src="https://github.com/user-attachments/assets/01506ac3-21b1-4f87-a91d-a5dba0fbdca9" />
 # Create a seperate network
-    Creating separate custom networks in Docker is essential for three main reasons:
+Creating separate custom networks in Docker is essential for three main reasons:
 1. Container Isolation & Securit
 2. Automatic Name Resolution (DNS)
 3. Traffic Control & Organization

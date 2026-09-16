@@ -34,6 +34,12 @@ The primary process begins execution inside the isolated space
 Paused State 
 # 🥇What Happen:
 Temporarily suspend all active processes
-. command = 
+. command = sudo docker pause lifecycle-container1
+<img width="1920" height="276" alt="image" src="https://github.com/user-attachments/assets/5507240d-e215-407e-abff-d9d330d7e45c" />
+# ♦️Status Focus: 
+unpause state 
+<img width="1920" height="187" alt="image" src="https://github.com/user-attachments/assets/d2c86dcf-5662-437c-b81c-fb140d4a268a" />
+
+
 
 

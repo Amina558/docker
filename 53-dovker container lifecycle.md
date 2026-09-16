@@ -12,6 +12,7 @@
 🥇What Happen: Docker sets up a thin writable meta data layer over the read only image 
 . commands = sudo docker create --name lifecycle-container ubuntu
 # Explanation
+
 . docker: Calls the Docker Command Line Interface (CLI) program to interact with the Docker engine.
 . create Tells Docker to prepare and set up a new container in the Created state, keeping it ready to run later
 . --name lifecycle-container: Assigns the custom name lifecycle-container to this specific container so you can manage or start it using a memorable name instead of an automatically generated container ID

@@ -8,4 +8,4 @@
 4. Stopped: Gracefully or Abruptly Halted
 5. Deleted: Permanently wiped out from the host
 
- # . state focus   
+. state focus   

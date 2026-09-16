@@ -26,7 +26,8 @@ Docker sets up a thin writable meta data layer over the read only image
 Running State
 # 🥇What Happen: 
 The primary process begins execution inside the isolated space
-. commands = sudo docker start lifecycle-container
+# commands 
+sudo docker start lifecycle-container
 
 <img width="1920" height="77" alt="image" src="https://github.com/user-attachments/assets/a64826b3-71f2-4e78-85a1-1ea498cd52b7" />
 
@@ -34,12 +35,29 @@ The primary process begins execution inside the isolated space
 Paused State 
 # 🥇What Happen:
 Temporarily suspend all active processes
-. command = sudo docker pause lifecycle-container1
+# command 
+sudo docker pause lifecycle-container1
 <img width="1920" height="276" alt="image" src="https://github.com/user-attachments/assets/5507240d-e215-407e-abff-d9d330d7e45c" />
 # ♦️Status Focus: 
 unpause state 
+
 <img width="1920" height="187" alt="image" src="https://github.com/user-attachments/assets/d2c86dcf-5662-437c-b81c-fb140d4a268a" />
 
+# ♦️Status Focus:
+Stopped state 
+# 🥇What Happen:
+the main process terminated 
+# commands 
+sudo docker start lifecycle-container1 
 
+<img width="1920" height="408" alt="image" src="https://github.com/user-attachments/assets/43778de2-28f4-4eb7-af2c-bd7b262a7de7" />
+
+# ♦️Status Focus:
+Deleted state
+# 🥇What Happen:
+Removes the container permanently along with its writable file 
+# command 
+ sudo docker rm lifecycle-container1
+ <img width="1920" height="338" alt="image" src="https://github.com/user-attachments/assets/2625b521-c8b6-41f6-b19b-f3ce51db73d0" />
 
 

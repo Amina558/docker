@@ -8,7 +8,7 @@ The process of building a specific port on the host machine to specific port ins
     docker host                    container
     [ External User / Browser ] 
           │
-          ▼ (Traffic hits Host Port 8080)
+          ▼ (Traffic hits Host Port 8082)
      ┌──────────────┐
      │  Docker Host │
      └──────┬───────┘
@@ -38,6 +38,8 @@ The process of building a specific port on the host machine to specific port ins
 <img width="1920" height="1080" alt="Screenshot (900)" src="https://github.com/user-attachments/assets/d2f73bf4-8b9a-4b50-b8a2-0d49427da43f" />
 
 # website page
+    open the browser and navigate  and navigate to http://192.168.1.15:8082
+    
 
 <img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/1a187d3a-73ef-4203-a29d-5dae7715acfc" />
 

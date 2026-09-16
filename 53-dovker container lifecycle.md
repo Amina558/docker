@@ -13,7 +13,7 @@
 . commands = sudo docker create --name lifecycle-container ubuntu
 # Explanation
 
-. docker: Calls the Docker Command Line Interface (CLI) program to interact with the Docker engine.
-. create Tells Docker to prepare and set up a new container in the Created state, keeping it ready to run later
-. --name lifecycle-container: Assigns the custom name lifecycle-container to this specific container so you can manage or start it using a memorable name instead of an automatically generated container ID
-. ubuntu: Specifies the base Docker image to build the container from.
+1. docker: Calls the Docker Command Line Interface (CLI) program to interact with the Docker engine.
+2. create Tells Docker to prepare and set up a new container in the Created state, keeping it ready to run later
+3. --name lifecycle-container: Assigns the custom name lifecycle-container to this specific container so you can manage or start it using a memorable name instead of an automatically generated container ID
+4. ubuntu: Specifies the base Docker image to build the container from.

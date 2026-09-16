@@ -8,7 +8,8 @@
 4. Stopped: Gracefully or Abruptly Halted
 5. Deleted: Permanently wiped out from the host
 
-# ♦️State Focus: Created state 
+# ♦️State Focus: 
+Created state 
 # 🥇What Happen: 
 Docker sets up a thin writable meta data layer over the read only image 
 . commands = sudo docker create --name lifecycle-container ubuntu
@@ -21,7 +22,8 @@ Docker sets up a thin writable meta data layer over the read only image
 
 <img width="1920" height="734" alt="image" src="https://github.com/user-attachments/assets/bdc7b9f9-da91-47cd-8137-291ff0fb25d6" />
 
-# ♦️Status Focus: Running State
+# ♦️Status Focus:
+Running State
 # 🥇What Happen: 
 The primary process begins execution inside the isolated space
 . commands = sudo docker start lifecycle-container
@@ -31,5 +33,7 @@ The primary process begins execution inside the isolated space
 # ♦️Status Focus: 
 Paused State 
 # 🥇What Happen:
+Temporarily suspend all active processes
+. command = 
 
 

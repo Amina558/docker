@@ -4,5 +4,11 @@ The process of building a specific port on the host machine to specific port ins
              
                               
   localhost      8080 → 80         Apache      
-    :8080       ------------->       :80 
-host machine                     docker container
+    :8082      ------------->       :80 
+
+ # 8082-----> host port number
+ # 80--------> container port number 
+
+ #Run Apache 
+ c
+ 

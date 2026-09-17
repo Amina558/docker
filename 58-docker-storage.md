@@ -26,3 +26,8 @@
     . Explicit Mapping: Directly maps a precise directory path on the host computer to a path inside the container.
     . Double-Edged Sword: High control, but relies entirely on the host machine having a specific directory structure.
     . Ideal Development Workflow: Map your local source code directory to the container so edits refresh instantly without rebuilding the image.
+# 🉑Conclusion & Summary
+    ▶️Headline: Key Takeaways
+    . Default storage is ephemeral; persistent apps require external mounts.
+    . Use Volumes for database engines, stateful production microservices, and general data persistence.
+    . Use Bind Mounts for local software development and mapping core configurations.

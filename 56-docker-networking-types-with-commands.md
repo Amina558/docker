@@ -33,16 +33,24 @@ commands =  sudo docker run -d \
 
  <img width="1920" height="130" alt="image" src="https://github.com/user-attachments/assets/d32c9c23-ab66-44f2-82ed-ea60ce1fb81d" />
 
-    ☑️Execute the SQL file using psql inside the container 
+    ☑️Execute the SQL file using psql inside the container
+    commands = docker exec -it portfolio-db psql -U amina -d portfolio_db -f /tmp/init.sql 
 
 <img width="1920" height="658" alt="image" src="https://github.com/user-attachments/assets/82d48845-bb2d-43bd-9c18-c29f3fb8bac7" />
- # ☑️Create php container to run php
+
+    ☑️Create php container to run php
+    commands = sudo docker run -d --name portfolio-web --network portfolio-network -p 8080:80 -e PGHOST=portfolio-db-container -e PGDATABASE=portfolio_db -e PGUSER=amina -e PGPASSWORD=amina@123 -e PGPORT=5432
+     php:8.2-apache
 
  <img width="1920" height="780" alt="image" src="https://github.com/user-attachments/assets/e6975a87-6f15-454e-99a0-165fa352e436" />
 
- Update apt and install the Postgres C-library dependency 
+     ☑️Update apt and install the Postgres C-library dependency 
+     commands = sudo docker exec -it portfolio-web apt-get update 
+                sudo docker exec -it portfolio-web apt-get install -y libpq-dev
+                
+<img width="1920" height="818" alt="image" src="https://github.com/user-attachments/assets/af9e6115-9563-46ec-b053-e1dd1379dff4" />
 
- 
+             
 
 
 

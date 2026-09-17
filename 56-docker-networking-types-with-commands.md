@@ -28,11 +28,21 @@ commands =  sudo docker run -d \
 
 <img width="1920" height="991" alt="image" src="https://github.com/user-attachments/assets/5de57b33-7bc9-4695-aa48-d902700e7065" />
 
- # ☑️Copy the SQL file into the container 
+    ☑️Copy the SQL file into the container 
 
 
  <img width="1920" height="130" alt="image" src="https://github.com/user-attachments/assets/d32c9c23-ab66-44f2-82ed-ea60ce1fb81d" />
 
+    ☑️Execute the SQL file using psql inside the container 
+
+<img width="1920" height="658" alt="image" src="https://github.com/user-attachments/assets/82d48845-bb2d-43bd-9c18-c29f3fb8bac7" />
+ # ☑️Create php container to run php
+
+ <img width="1920" height="780" alt="image" src="https://github.com/user-attachments/assets/e6975a87-6f15-454e-99a0-165fa352e436" />
+
+ Update apt and install the Postgres C-library dependency 
+
+ 
 
 
 

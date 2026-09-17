@@ -49,6 +49,19 @@ commands =  sudo docker run -d \
                 sudo docker exec -it portfolio-web apt-get install -y libpq-dev
                 
 <img width="1920" height="818" alt="image" src="https://github.com/user-attachments/assets/af9e6115-9563-46ec-b053-e1dd1379dff4" />
+  
+     ☑️Copy the index.php file into the container 
+
+<img width="1920" height="905" alt="php" src="https://github.com/user-attachments/assets/1757d35e-fb18-4648-835b-f81d4a235c0f" />
+
+ # Access the website
+      http://192.168.1.15:8080
+
+  <img width="1920" height="1080" alt="Screenshot (974)" src="https://github.com/user-attachments/assets/f063bf92-ca56-4192-8900-33c65ab2a585" />
+    
+
+
+
 
              
 

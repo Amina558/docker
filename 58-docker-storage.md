@@ -17,4 +17,12 @@
      . Completely Managed by Docker: Isolated from the rest of the host system's operations.
      . Data Security:  Safe from accidental manual manipulation on the host system.
  # Key CLI Commands
- Create a volume:
+    Create a volume: docker volume create portfolio-db-vol
+     List volumes: docker volume ls  
+<img width="1920" height="256" alt="image" src="https://github.com/user-attachments/assets/92d4cbbb-f4bf-4025-9427-699bdaee6c43" />
+
+# 🉑Bind Mounts
+    ▶️Headline: Linking the Host Directly
+    . Explicit Mapping: Directly maps a precise directory path on the host computer to a path inside the container.
+    . Double-Edged Sword: High control, but relies entirely on the host machine having a specific directory structure.
+    . Ideal Development Workflow: Map your local source code directory to the container so edits refresh instantly without rebuilding the image.

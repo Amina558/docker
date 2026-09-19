@@ -37,14 +37,16 @@
  <img width="1920" height="154" alt="image" src="https://github.com/user-attachments/assets/66e1bf88-00f2-48cb-9f60-670151615538" />
  # 🟤Destructive Testing Phase
  # Wipe Out Container One Completely
-     To simulate a complete failure, application crash, or system update, we forcefully remove the first container instance.
-     Without a volume, any files inside this container would be permanently unrecoverable at this point.
-     # Stop and forcefully delete Container 1
-     $ sudo docker rm -f portfolio-db-container
+ 
+     . To simulate a complete failure, application crash, or system update, we forcefully remove the first container instance.
+     .  Without a volume, any files inside this container would be permanently unrecoverable at this point.
+     
+     . Stop and forcefully delete Container 
+     . sudo docker rm -f portfolio-db-container
 
-      # Verify that the container is fully wiped
-     $ sudo docker ps -a | grep portfolio-db-container
-     # Result output will be blank - container is gone!
+      . Verify that the container is fully wiped
+      . sudo docker ps -a | grep portfolio-db-container
+      . Result output will be blank - container is gone!
 <img width="774" height="251" alt="image" src="https://github.com/user-attachments/assets/d991c70b-c6e5-4ab6-b2bc-3f0f98f0e92e" />
 
 <img width="1521" height="210" alt="image" src="https://github.com/user-attachments/assets/559b9477-a0e7-4b50-b266-80fabbcaa58f" />

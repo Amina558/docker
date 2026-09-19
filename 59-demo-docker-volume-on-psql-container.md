@@ -35,6 +35,26 @@
      . -v portfolio-db-vol:/var/lib/postgresql/data: Creates a volume link (-v). It connects a folder on your physical computer (portfolio-db-vol) to the folder inside the container where PostgreSQL stores its data (/var/lib/postgresql/data).
 
  <img width="1920" height="154" alt="image" src="https://github.com/user-attachments/assets/66e1bf88-00f2-48cb-9f60-670151615538" />
+ # 🟤Destructive Testing Phase
+ # Wipe Out Container One Completely
+     To simulate a complete failure, application crash, or system update, we forcefully remove the first container instance.
+     Without a volume, any files inside this container would be permanently unrecoverable at this point.
+     # Stop and forcefully delete Container 1
+     $ sudo docker rm -f portfolio-db-container
+
+      # Verify that the container is fully wiped
+     $ sudo docker ps -a | grep portfolio-db-container
+     # Result output will be blank - container is gone!
+<img width="774" height="251" alt="image" src="https://github.com/user-attachments/assets/d991c70b-c6e5-4ab6-b2bc-3f0f98f0e92e" />
+
+<img width="1521" height="210" alt="image" src="https://github.com/user-attachments/assets/559b9477-a0e7-4b50-b266-80fabbcaa58f" />
+
+
+ # 🟤Insert some valves 
+    commands = sudo docker exec -it portfolio-db-container psql -U amina -d portfolio_db -c "INSERT INTO education (course_name, session, cgpa, institute) VALUES ('Arts & Humanities', '2021-2024', 9.23, 'Delhi University');"
+     <img width="1920" height="89" alt="image" src="https://github.com/user-attachments/assets/eb356ddb-79b2-418f-9ebc-92f7ca91449b" />
+     After removin
+
 
 
 

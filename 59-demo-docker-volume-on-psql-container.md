@@ -10,6 +10,8 @@
 
 # 🟤Essential Volume CLI Commands
     . docker volume create portfolio-db-vol  →  Creates a new named volume explicitly.
+    List volumes: docker volume ls  
+<img width="1920" height="256" alt="image" src="https://github.com/user-attachments/assets/92d4cbbb-f4bf-4025-9427-699bdaee6c43" />
 
 
 

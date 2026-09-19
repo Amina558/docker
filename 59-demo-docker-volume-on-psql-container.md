@@ -33,7 +33,9 @@
 
      ☑️ Storage (Data Persistence)
      . -v portfolio-db-vol:/var/lib/postgresql/data: Creates a volume link (-v). It connects a folder on your physical computer (portfolio-db-vol) to the folder inside the container where PostgreSQL stores its data (/var/lib/postgresql/data).
-     
+
+ <img width="1920" height="154" alt="image" src="https://github.com/user-attachments/assets/66e1bf88-00f2-48cb-9f60-670151615538" />
+
 
 
 

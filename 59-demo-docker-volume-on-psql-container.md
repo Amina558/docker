@@ -56,7 +56,7 @@
     commands = sudo docker exec -it portfolio-db-container psql -U amina -d portfolio_db -c "INSERT INTO education (course_name, session, cgpa, institute) VALUES ('Arts & Humanities', '2021-2024', 9.23, 'Delhi University');"
 
     
-     <img width="1920" height="89" alt="image" src="https://github.com/user-attachments/assets/eb356ddb-79b2-418f-9ebc-92f7ca91449b" />
+<img width="1920" height="89" alt="image" src="https://github.com/user-attachments/assets/eb356ddb-79b2-418f-9ebc-92f7ca91449b" />
 
      After removing the insert value the data will remain there 
 
